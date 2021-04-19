@@ -7137,3 +7137,11 @@ button.close {
         display: none !important
     }
 }
+
+.wilenetLink {
+
+    width: 100px;
+    height: 30px;
+    background-color: #2b542c;
+
+}

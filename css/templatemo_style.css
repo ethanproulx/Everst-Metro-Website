@@ -5,6 +5,25 @@ Sonic Template
 http://www.templatemo.com/tm-394-sonic
 
 */
+.myButton {
+	background-color:#009933;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0c5700;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 .main-menu,
 .responsive-menu ul,
@@ -696,4 +715,11 @@ a.menu-toggle-btn i {
     .slider-caption {
         display: none;
     }
+}
+
+.wilenetLink {
+
+    background-color: #053910;
+    width: fit-content;
+
 }
