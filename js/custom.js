@@ -1,6 +1,8 @@
-jQuery(document).ready(function($){
+$(document).ready(function () {
 
-
+    if (!window.console) console = {
+        log: function () {}
+    };
 
 
 	/************** Scroll Navigation *********************/
