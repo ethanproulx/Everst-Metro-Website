@@ -482,19 +482,19 @@ http://www.templatemo.com/tm-394-sonic
         function initialize() {
           var map_options = {
             zoom: 13,
-            center: {lat: 40.7809919, lng: -73.9665273}
+            center: new google.maps.lat_lng(40.7809919,-73.9665273)
           };
 
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
+          var map = new google.maps.map(document.get_element_by_id('map-canvas'),
               map_options);
         }
 
         function load_script() {
-          var script = document.createElement('script');
+          var script = document.create_element('script');
           script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBzerg_PMxqVOoKF6DDQxbtgg8ozIdgAlk&' +
-              'callback=initMap';
-          document.body.appendChild(script);
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+              'callback=initialize';
+          document.body.append_child(script);
         }
 
         window.onload = load_script;
