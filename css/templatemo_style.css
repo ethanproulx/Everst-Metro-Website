@@ -6,8 +6,8 @@ http://www.templatemo.com/tm-394-sonic
 
 */
 .myButton {
-	background-color:#009933;
-	border:1px solid #18ab29;
+	background-color:#042366;
+	border:1px solid #042366;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -15,10 +15,11 @@ http://www.templatemo.com/tm-394-sonic
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #0c5700;
+	text-shadow:0px 1px 0px #042366;
 }
 .myButton:hover {
-	background-color:#5cbf2a;
+	background-color:#0541c2;
+    color: white;
 }
 .myButton:active {
 	position:relative;
@@ -99,35 +100,35 @@ h6 {
 }
 
 #about .section-title {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 #about h2 {
-    background-color: darkgreen;
+    background-color: #042366;
 }
 
 #services .section-title {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 #services h2 {
-    background-color: darkgreen;
+    background-color: #042366;
 }
 
 #portfolio .section-title {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 #portfolio h2 {
-    background-color: darkgreen;
+    background-color: #042366;
 }
 
 #contact .section-title {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 #contact h2 {
-    background-color: darkgreen;
+    background-color: #042366;
 }
 
 a.largeButton {
@@ -141,7 +142,7 @@ a.largeButton {
 }
 
 .homeBgColor {
-    background: darkgreen;
+    background: #042366;
 }
 
 .homeBgColor:hover {
@@ -149,7 +150,7 @@ a.largeButton {
 }
 
 .portfolioBgColor {
-    background: darkgreen;
+    background: #042366;
 }
 
 .portfolioBgColor:hover {
@@ -157,23 +158,23 @@ a.largeButton {
 }
 
 .contactBgColor {
-    background: darkgreen;
+    background: #042366;
 }
 
 .contactBgColor:hover {
-    background-color: #053910;
+    background-color: #042366;
 }
 
 a.largeButton.homeBgColor {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 a.largeButton.portfolioBgColor {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 a.largeButton.contactBgColor {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 #main-sidebar {
@@ -187,7 +188,7 @@ a.largeButton.contactBgColor {
 
 .logo {
     margin: 100px 0;
-    background-color: darkgreen;
+    background-color: #042366;
     padding: 25px 40px;
 }
 
@@ -229,11 +230,11 @@ a.largeButton.contactBgColor {
 }
 
 .main-menu li a:hover {
-    background-color: #053910;
+    background-color: #042366;
 }
 
 li.home a {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 li.home a.active {
@@ -249,7 +250,7 @@ li.about a.active {
 }
 
 li.services a {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 li.services a.active {
@@ -265,7 +266,7 @@ li.portfolio a.active {
 }
 
 li.contact a {
-    border-color: darkgreen;
+    border-color: #042366;
 }
 
 li.contact a.active {
@@ -275,7 +276,7 @@ li.contact a.active {
 a.menu-toggle-btn {
     width: 100%;
     height: 60px;
-    background-color: darkgreen;
+    background-color: #042366;
     text-align: center;
     line-height: 60px;
     display: block;
@@ -383,11 +384,11 @@ a.menu-toggle-btn i {
 }
 
 .welcome-text a {
-    color: darkgreen;
+    color: #042366;
 }
 
 .welcome-text h2 {
-    color: darkgreen;
+    color: #042366;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 32px;
@@ -553,7 +554,7 @@ a.menu-toggle-btn i {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(56, 227, 149, 0.9);
+    background-color: #042366;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.2s ease-in-out;
@@ -588,7 +589,7 @@ a.menu-toggle-btn i {
 }
 
 .portfolio-title a {
-    color: #38e395;
+    color: #042366;
     font-size: 18px;
     text-transform: uppercase;
 }
